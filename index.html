@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drifting</title>
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script defer src="js/cookies.js"></script>
+    <script defer src="js/login.js"></script>
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-car-crash'></i>Drifting</a>
+        <button id="abrir" class="abrir-menu"><i class='bx bx-menu'></i></button>
+            <nav class="nav" id="nav">
+                <button class="cerrarr" id="cerrar">x</button>
+                <ul class="nav-list">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Autos</a></li>
+                    <li><a href="#">inscribirte</a></li>
+                    <li><a href="#">Mas</a></li>
+
+                </ul>
+            </nav>
+        <div class="header-btn">
+            <a href="register.html" class="sign-up">Registrarte</a>
+            <a href="login.html" class="in">Iniciar sesión</a>
+        </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="fondo-modal" id="fondo-modal" >
+                <div class="ventana-modal" id="ventana-modal">
+                    <h1>Bienvenido a Drifting CRDG</h1>
+                    <img src="img/gtr-drift.jpeg" alt="perfil-ventana">
+                    <p>Para navergar en nuestra pagina tenes que aceptar las cookies</p>
+                    <div>
+                        <button class="boton" id="cerrar-aviso">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="img">
+                <img  src="img/presentacion.jpg" alt="">
+            </div>
+            <div class="inf-drift">
+                <h1>¿Que es el Drifting?</h1>
+                <p>El drifting es una técnica de conducción utilizada en automovilismo y deportes de motor en la que el conductor hace que el automóvil derrape intencionalmente mientras mantiene el control sobre él. En lugar de seguir la trayectoria normal de la curva, el conductor hace que el automóvil pierda tracción en las ruedas traseras para que se deslice lateralmente a través de la curva.</p>
+            </div>
+        </section>
+        <section>
+            <div class="ins-form">
+                <h2>¿Como hacer Drifting?</h2>
+                <p>Podes inscribirte en nuestras clase de practica que hay varios planes para que puedas ver el que mas se adaste a vos o si ya eres un conductor experimentado podes participar en torneos y mas cosas que te pueden interesar en nuestra pagina.</p>
+                <p>Para que puedas aprender a driftear deberas completar el formulario que esta abajo, tarda unos dias en validar tus datos, despues te llegara mail confirmacion</p>
+
+                <div class="form-data">
+                    <form  action="https://formsubmit.co/sotoa2300@gmail.com " method="POST">
+                        <div>
+                            <h4>Inscripcion</h4>
+                            <p>Complete el formulario</p>
+                            <div input-insc>
+                                <label for="name">
+                                    <input placeholder="Nombre completo" type="text" name="Nombre completo">
+                                </label>
+                                <label for="last-name">
+                                    <input placeholder="Apellido" type="text" name="Apellido">
+                                </label>
+                                <label for="email">
+                                    <input placeholder="Correo electronico" type="text" name="Correo electronico">
+                                </label>
+                                <label for="number">
+                                    <input placeholder="Numero de celular" type="text" name="Numero celular">
+                                </label>
+                                <label for="DNI">
+                                    <input placeholder="Numero de dni" type="text" name="Numero de dni">
+                                </label>
+                                <label for="password">
+                                    <input placeholder="Contraseña" type="password" name="contraseña">
+                                </label>
+                                <label for="reapeat-password">
+                                    <input placeholder="Ingrese nuevamente la contraseña" type="password" name="repetir contraseña">
+                                </label>
+                                <button class="form-boton" type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </section>
+       
+        <section class="galeria">
+            <div class="images">
+            
+                <div class="image active" style="background-image: url(img/A.jpg);">
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fa-solid fa-car-rear"></i>
+                        </div>
+                        <div class="info">
+                            <p class="main">Lorem, ipsum.</p>
+                            <p class="sub">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image" style="background-image: url(img/B.webp);">
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fa-solid fa-car-rear"></i>
+                        </div>
+                        <div class="info">
+                            <p class="main">Lorem, ipsum.</p>
+                            <p class="sub">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image" style="background-image: url(img/C.jpg);">
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fa-solid fa-car-rear"></i>
+                        </div>
+                        <div class="info">
+                            <p class="main">Lorem, ipsum.</p>
+                            <p class="sub">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image" style="background-image: url(img/D.jpg);">
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fa-solid fa-car-rear"></i>
+                        </div>
+                        <div class="info">
+                            <p class="main">Lorem, ipsum.</p>
+                            <p class="sub">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image" style="background-image: url(img/E.jpg);">
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fa-solid fa-car-rear"></i>
+                        </div>
+                        <div class="info">
+                            <p class="main">Lorem, ipsum.</p>
+                            <p class="sub">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image" style="background-image: url(img/F.jpg);">
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fa-solid fa-car-rear"></i>
+                        </div>
+                        <div class="info">
+                            <p class="main">Lorem, ipsum.</p>
+                            <p class="sub">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image" style="background-image: url(img/G.jpg);">
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fa-solid fa-car-rear"></i>
+                        </div>
+                        <div class="info">
+                            <p class="main">Lorem, ipsum.</p>
+                            <p class="sub">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image" style="background-image: url(img/H.jpg);">
+                    <div class="label">
+                        <div class="icon">
+                            <i class="fa-solid fa-car-rear"></i>
+                        </div>
+                        <div class="info">
+                            <p class="main">Lorem, ipsum.</p>
+                            <p class="sub">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-link">
+                    <h4>Drifting</h4>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Nuestros servicios</a></li>
+                        <li><a href="#">Politica de privacida</a></li>
+                      
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Preguntas</a></li>
+                        <li><a href="#">Envios</a></li>
+                        <li><a href="#">Pagos</a></li>
+                        <li><a href="#">Foro</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <h4>Tienda</h4>
+                    <ul>
+                        <li><a href="#">Reparaciones</a></li>
+                        <li><a href="#">Repuestos</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Coches</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link">
+                    <h4>Siguenos</h4>
+                    <div class="social-link">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

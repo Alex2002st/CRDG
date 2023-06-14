@@ -1,0 +1,5 @@
+{
+ "indenticator.width": 0.1,
+"indenticator.color.dark": "rgba(255,255,255,0.3)",
+"liveServer.settings.port": 5501,
+}
